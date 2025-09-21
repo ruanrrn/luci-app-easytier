@@ -5,11 +5,11 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: '0.0.0.1'
+        description: '版本'
         required: false
         default: ''
       text:
-        description: '测试发布'
+        description: '发布说明'
         required: false
         default: ''
 concurrency:
